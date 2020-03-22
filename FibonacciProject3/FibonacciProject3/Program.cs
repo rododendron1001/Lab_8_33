@@ -6,7 +6,11 @@ namespace FibonacciProject3
     {
         static void Main(string[] args)
         {
-         
+            For_Console.ReadNumber(("Number of elements for the string Fibonacci : "),3,0);
+            
+
         }
+
+
     }
 }
