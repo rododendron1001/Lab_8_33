@@ -13,7 +13,7 @@ namespace FibonacciProject3
         private static void StringFibonacci()
         {
             int n = For_Console.ReadNumber(("Number of elements for the string Fibonacci : "), 3, 0);
-            string fibonacci = Library.Fibonacci_Class.Fibonacci(n);
+            Library.Fibonacci_Class.Fibonacci(n);            
         }
 
 
