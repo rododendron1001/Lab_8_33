@@ -37,18 +37,6 @@ namespace FibonacciProject3
 
             return defaultValue;
         }
-
-
-        public static void WriteString(string s)
-        {
-            
-                Console.WriteLine("Elements of string Fibonacci are : " );
-
-            for (int i = 0; i < s.Length; i++)
-            {
-                
-                Console.WriteLine(string.Join(',', s[i]));
-            }
-        }
+       
     }
 }
